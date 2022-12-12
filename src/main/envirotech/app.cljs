@@ -15,9 +15,8 @@
 (defn routing []
   [:div
    (cond (= @route :main)       [:h1 "main"]
-         (= @route :settings)   [:h1 "settings"]
-	       (= @route :profile)    [:h1 "profile"]
-         (= @route :languages)  [:h1 "langs"])])
+         (= @route :bitumen)   [:h1 "bitumen"]
+	       (= @route :hydrogen)    [:h1 "hydrogen"])])
 
 
 (defn nav-button [val page]
@@ -29,9 +28,9 @@
 (defn nav-bar []
   [:div
    [nav-button "Main" :main]
-   [nav-button "Settings" :settings]
-   [nav-button "Profile" :profile]
-   [nav-button "Languages" :languages]])
+   [nav-button "bitumen" :bitumen]
+   [nav-button "hydrogen" :hydrogen]
+   ])
 
 (defn root-element []
   [:div

@@ -1,16 +1,10 @@
-(ns envirotech.app
+(ns envirotech.site
   (:require [reagent.core :as r]
-            [reagent.dom :as rdom]))
+            [reagent.dom :as rdom]
+            [envirotech.body :as page]))
 
 ;; npx tailwindcss -i ./src/css/app.css -o ./public/app.css --watch
 (defonce route (r/atom :main))
-
-#_(defn routing []
-  [:div
-   (cond (= @route :main)       [home/page]
-         (= @route :settings)   [settings/page]
-	       (= @route :profile)    [profile/page]
-         (= @route :languages)  [languages/page])])
 
 (defn routing []
   [:div
@@ -34,8 +28,8 @@
 
 (defn root-element []
   [:div
-   [nav-bar]
-   [routing]])
+   #_[nav-bar]
+   #_[routing]])
 
 
 (defn ^:dev/after-load start []

@@ -1,145 +1,80 @@
-A Breakthrough Technology For In-Situ Bitumen Recovery  
+# A Breakthrough Technology for In-Situ Bitumen Recovery
 
-A Breakthrough Technology for In-Situ Bitumen Recovery
-======================================================
+Our global energy system faces stark challenges on the horizon.  Fulfilling the generational promise of reducing poverty and creating  prosperity requires an abundance of cheap energy; but the growing threat of climate change demands that we transition to cleaner and more  sustainable forms of energy. Oil will likely still play a vital role in  our global energy system for the forseeable future[source](https://www.eia.gov/todayinenergy/detail.php?id=41433) ; and so it is imperative that we begin the transition to cheaper and cleaner forms of oil recovery today.
 
-Our global energy system faces stark challenges on the horizon. Fulfilling the generational promise of reducing poverty and creating prosperity requires an abundance of cheap energy; but the growing threat of climate change demands that we transition to cleaner and more sustainable forms of energy. Oil will likely still play a vital role in our global energy system for the forseeable future[(source)](https://www.eia.gov/todayinenergy/detail.php?id=41433) ; and so it is imperative that we begin the transition to cheaper and cleaner forms of oil recovery today.
+The *Steam Assisted Gravity Drainage (SAGD)* technology that  powered the rise of the oil sands for over three decades has become the  root of problems that now threaten the continued survival of the  Canadian oil sands industry. Recovering unrefined bitumen using SAGD has a host of growing disadvantages; the process is complex, costly, and  energy intensive. The high CO2 emissions and poor  environmental record of SAGD has resulted in a growing political  backlash that is cutting off opportunities for continued growth.
 
-The _Steam Assisted Gravity Drainage (SAGD)_ technology that powered the rise of the oil sands for over three decades has become the root of problems that now threaten the continued survival of the Canadian oil sands industry. Recovering unrefined bitumen using SAGD has a host of growing disadvantages; the process is complex, costly, and energy intensive. The high CO2 emissions and poor environmental record of SAGD has resulted in a growing political backlash that is cutting off opportunities for continued growth.
+The *Dimethyl Ether (DME)* based recovery technology outlined  here can become an engine of clean, sustainable growth for the Canadian  oil sands for decades to come. Dimethyl Ether is an amphoteric solvent  that displays particular affinity to bitumen. In this outline we will  see how DME based extraction can dramatically improve the recovery rate  and environmental impact, reduce the capital and operating costs, and  simplify the process of bitumen recovery. We appeal to the Canadian oil  sands industry and the governments of Alberta and Canada to work  together to demonstrate the effectiveness of this technology in order to foster a new era for the bitumen industry. 
 
-The _Dimethyl Ether (DME)_ based recovery technology outlined here can become an engine of clean, sustainable growth for the Canadian oil sands for decades to come. Dimethyl Ether is an amphoteric solvent that displays particular affinity to bitumen. In this outline we will see how DME based extraction can dramatically improve the recovery rate and environmental impact, reduce the capital and operating costs, and simplify the process of bitumen recovery. We appeal to the Canadian oil sands industry and the governments of Alberta and Canada to work together to demonstrate the effectiveness of this technology in order to foster a new era for the bitumen industry.
+*All claims and figures are discussed in detail in the PDF resources located at the bottom of the page.*
 
-_All claims and figures are discussed in detail in the PDF resources located at the bottom of the page._
+## DME versus SAGD – Summary
 
-DME versus SAGD – Summary
--------------------------
+#### DME-assisted SAGD - *DME-SA*
 
-Replacing SAGD with the integrated DME technology reduces bitumen’s breakeven recovery cost from ~$40 US per barrel of bitumen to $7-8 US per barrel of bitumen/DME dilbit. DME eliminates the usage and combustion of natural gas, as well as potable water and its conversion for steam. It emits no CO2 or process water that requires treatment. The technology is sustainable, generates saleable products only and, its capital cost is reduced by around 5 times compared to SAGD.
+The simplest version of the technology, and the fastest to implement.  DME-SA is based on admixing liquid  DME to steam produced by SAGD’s  plant; unless DME is to be recovered  from the dilbit, the SAGD plant  does not require modification
 
-### Versions of the DME Technology
+#### DME-based Extraction - *DME-E*
 
-#### DME-assisted SAGD - _DME-SA_
+A standalone version of DME recovery that reduces CO2  emissions and eliminates the need for natural gas combustion, usage of  potable water, generation of steam, and treatment of process water. the  DME-E plants are supplied with DME and electric power from an offsite  facility.
 
-*   The simplest version of the technology, and the fastest to implement. DME-SA is based on admixing liquid DME to steam produced by SAGD’s plant; unless DME is to be recovered from the dilbit, the SAGD plant does not require modification
+#### Integrated DME-based Extraction - *I-DME-E*
 
-#### DME-based Extraction - _DME-E_
-
-*   A standalone version of DME recovery that reduces CO2 emissions and eliminates the need for natural gas combustion, usage of potable water, generation of steam, and treatment of process water. the DME-E plants are supplied with DME and electric power from an offsite facility.
-
-#### Integrated DME-based Extraction - _I-DME-E_
-
-*   An advanced form of the technology that synchronizes the DME-E plant with an **Integrated Central Facility**. Integration enables performant DME production, bitumen recovery and partial upgrading of bitumen. The Integrated Central Facility can reduce total costs by recycling and converting all generated by-products, including CO2,into value-added saleable products. ~90% of the unit processes utilized by the Integrated Central Facility have already been proven to be commercially viable.
+An advanced form of the technology that synchronizes the DME-E plant with an **Integrated Central Facility**. Integration enables performant DME production, bitumen recovery and  partial upgrading of bitumen. The Integrated Central Facility can reduce total costs by recycling and converting all generated by-products,  including CO2,into value-added saleable products. ~90% of the unit processes utilized by the Integrated Central Facility have already been proven to be  commercially viable.
 
 ### The Advantages of DME as Compared to SAGD Technology
 
-DME as compared to SAGD
+| DME as compared to SAGD         | DME-SA    | DME-E       | I-DME-E     |
+| ------------------------------- | --------- | ----------- | ----------- |
+| **CO2 Emission Reductions**     | Up To 50% | ~85%        | ~100%       |
+| **Overall Bitumen Recovery \*** | ~65%      | 80% - 90%   | 80% - 90%   |
+| **Increase in Recovery Rate**   | ~200%     | ~300 - 400% | ~300 - 400% |
+| **Breakeven Cost Reduction**    | ~50%      | ~65%        | ~80%        |
 
-DME-SA
+******SAGD average overall recovery is 50%.*
 
-DME-E
 
-I-DME-E
 
-**CO2 Emission Reductions**
+![DME Picture](http://envirotechdme.com/DME-Flow.png)
 
-Up To 50%
+![SAGD Picture](http://envirotechdme.com/SAGD-Flow.png)
 
-~85%
+*Select a diagram to expand it.*
 
-~100%
+These flow diagrams compare the input and output streams used by DME  and SAGD. Each diagram arrow represents an individual input stream or  output  stream as it moves from unit process to unit process; the  thickness of each arrow represents the approximate volume of that stream required by that technology. These diagrams demonstrate that the DME  process is simpler and more efficient at producing an equivalent volume  of bitumen compared to SAGD.
 
-**Overall Bitumen Recovery \***
-
-~65%
-
-80% - 90%
-
-80% - 90%
-
-**Increase in Recovery Rate**
-
-~200%
-
-~300 - 400%
-
-~300 - 400%
-
-**Breakeven Cost Reduction**
-
-~50%
-
-~65%
-
-~80%
-
-**\***_SAGD average overall recovery is 50%._
-
-![DME Picture](DME-Flow.png)
-
-![SAGD Picture](SAGD-Flow.png)
-
-_Select a diagram to expand it._
-
-These flow diagrams compare the input and output streams used by DME and SAGD. Each diagram arrow represents an individual input stream or output stream as it moves from unit process to unit process; the thickness of each arrow represents the approximate volume of that stream required by that technology. These diagrams demonstrate that the DME process is simpler and more efficient at producing an equivalent volume of bitumen compared to SAGD.
-
-Evidence Supporting DME-based Extraction
-----------------------------------------
+## Evidence Supporting DME-based Extraction
 
 #### Bitumen Recovery Rates
 
-_Alberta Innovates 2017 Report, “Study of Solvent-Assisted In Situ Bitumen Recovery”_ confirms that bitumen recovery rates (for DME-E) are 3.33 times higher compared to propane and 3.94 times higher compared to butane. The report also confirms that residual bitumen saturation is higher for propane (Fig. 8) and butane (Fig. 9) compared to DME. N-Solv has confirmed that bitumen output from a propane/butane extraction plant operating at 50C is comparable to a SAGD plant.
+*Alberta Innovates 2017 Report, “Study of Solvent-Assisted In Situ Bitumen Recovery”* confirms that bitumen recovery rates (for DME-E) are 3.33 times higher  compared to propane and 3.94 times higher compared to butane. The report also confirms that residual bitumen saturation is higher for propane  (Fig. 8) and butane (Fig. 9) compared to DME. N-Solv has confirmed that  bitumen output from a propane/butane extraction plant operating at 50C  is comparable to a SAGD plant.
 
-_Canadian Patent #2,652,930_ shows that extraction of oil sands ore with liquid DME at 50C and 1.2 MPa pressure reduces the bitumen content in the bituminous ore from 11.8wt% to 0.2wt% in the dry residue – a reduction of over 98wt%.
+*Canadian Patent #2,652,930* shows that extraction of oil  sands ore with liquid DME at 50C and 1.2 MPa pressure reduces the  bitumen content in the bituminous ore from 11.8wt% to 0.2wt% in the dry  residue – a reduction of over 98wt%.
 
 #### Energy Consumption & CO2 Emissions
 
-_METI 2009 Interim Report “Alberta Bitumen Link (ABL)"_ shows on page 22 how a DME-E plant consumes 6.2-8.5% of the energy required by an equivalent SAGD plant. On page 26 the report shows that total DME-E plant emissions of CO2 amount to approximately 4% of SAGD’s plant.
+*METI 2009 Interim Report “Alberta Bitumen Link (ABL)"* shows  on page 22 how a DME-E plant consumes 6.2-8.5% of the energy required by an equivalent SAGD plant. On page 26 the report shows that total DME-E  plant emissions of CO2 amount to approximately 4% of SAGD’s plant.
 
 #### Fluid Mass Flow
 
-_METI 2009 Interim Report “Alberta Bitumen Link (ABL)"_ shows on page 25 that for an equivelant yield of bitumen/day, a SAGD plant will require 30 times the flow of injection fluids then what is required for a DME plant.
+*METI 2009 Interim Report “Alberta Bitumen Link (ABL)"* shows  on page 25 that for an equivelant yield of bitumen/day, a SAGD plant  will require 30 times the flow of injection fluids then what is required for a DME plant.
 
 #### SAGD Steam Distribution in Reservoir
 
-_I. Gates, J. Adams and S. Larter, (CSEG Recorder, 33, (7), 42-48, 2008)_ concluded that in a reservoir the steam is distributed chiefly via channels and fractures; cementation and consolidated character of the reservoir will impede steam flow and heat distribution; extension of channels and fractures beyond the gravity drainage chamber will cause heat losses; excessive accumulation of water in the reservoir is known to result in unacceptable heat losses.
+*I. Gates, J. Adams and S. Larter, (CSEG Recorder, 33, (7), 42-48, 2008)* concluded that in a reservoir the steam is distributed chiefly via  channels and fractures; cementation and consolidated character of the  reservoir will impede steam flow and heat distribution; extension of  channels and fractures beyond the gravity drainage chamber will cause  heat losses; excessive accumulation of water in the reservoir is known  to result in unacceptable heat losses.
 
 #### DME Solvent Distriution in Reservoir
 
-_F. Diedro, J. Bryan, S. Kryuchkow and A. Kantzas, (publication SPE-174424-MS, Calgary, 9-11 June, 2015)_ confirmed that DME displays maximum solubility, faster mass transfer and also considerably more swelling as compared to propane, pentane and toluene; the authors have concluded that DME has the potential for use as a solvent in heavy oil and bitumen recovery in vapor as well as liquid phases.
+*F. Diedro, J. Bryan, S. Kryuchkow and A. Kantzas, (publication SPE-174424-MS, Calgary, 9-11 June, 2015)* confirmed that DME displays maximum solubility, faster mass transfer  and also considerably more swelling as compared to propane, pentane and  toluene; the authors have concluded that DME has the potential for use  as a solvent in heavy oil and bitumen recovery in vapor as well as  liquid phases.
 
 #### DME potential for bitumen recovery
 
-_A. Haddadnia, M. Zirahhi, H. Hassanzadeh and J. Abedi, (Canada Heavy Oil Technical Conference, Calgary, AB, Canada, 13-14 March, 2018)_ confirmed the potential of DME as a solvent for use with ES-SAGD (Expanding Solvent SAGD).
+*A. Haddadnia, M. Zirahhi, H. Hassanzadeh and J. Abedi, (Canada  Heavy Oil Technical Conference, Calgary, AB, Canada, 13-14 March, 2018)* confirmed the potential of DME as a solvent for use with ES-SAGD (Expanding Solvent SAGD).
 
 #### Reduced Complexity of Solvent Based Extraction
 
-_GE Heavy Oil Solutions Group, 2012 Watertech. Conference, Calgary, AB, Canada_ showed that the need for natural gas combustion, high temperature pressurized steam and process water treatment hardware is essential for the operation of a SAGD plant, but eliminated for a solvent based plant.
-
-PDF Resources
--------------
-
-[](pdfs/CO2-Elimination.pdf)[A) CO2 Elimination](pdfs/CO2-Elimination.pdf)
-
-[](pdfs/Breakthrough-Technology.pdf)[B) Breakthrough Technology](pdfs/Breakthrough-Technology.pdf)
-
-*   [](pdfs/Doc1.pdf)[Doc 1](pdfs/Doc1.pdf)
-    
-*   [](pdfs/Doc2.pdf)[Doc 2](pdfs/Doc2.pdf)
-    
-*   [](pdfs/Doc3.pdf)[Doc 3](pdfs/Doc3.pdf)
-    
-
-[](pdfs/Challenges-Opportunities.pdf)[C) Challenges & Opportunities](pdfs/Challenges-Opportunities.pdf)
+*GE Heavy Oil Solutions Group, 2012 Watertech. Conference, Calgary, AB, Canada* showed that the need for natural gas combustion, high temperature  pressurized steam and process water treatment hardware is essential for  the operation of a SAGD plant, but eliminated for a solvent based plant.
 
 ### The Potential for the Hydrogen Economy
 
-DME is the key to significantly improving the environmental and economic performance of the in-situ bitumen recovery industry (see B). DME handling, including storage pipelining and shipping does not present problems associated with LNG handling. The existing Liquefied Petroleum Gas (LPG) infrastructure is suitable for DME. Steam reforming of DME, as compared to LNG reforming, generates larger volumes of hydrogen and proceeds under much milder conditions. A blend of CO2/H2O can be converted to DME by catalytic photosynthesis (see D) and successful scale-up of this process would result in a drastic reduction of the DME production cost. In Alberta, DME has the potential to bridge the transition from fossil fuels to the hydrogen economy.
-
-[](pdfs/Hydrogen-Economy.pdf)[D) Hydrogen Economy](pdfs/Hydrogen-Economy.pdf)
-
-Inquire With Us
----------------
-
-[](mailto:b.ignasiak@envirotechdme.com)[b.ignasiak@envirotechdme.com](mailto:b.ignasiak@envirotechdme.com)
-
-[](tel:1-780-435-2765)[780 435 2765](tel:1-780-435-2765)
+DME is the key to significantly improving the environmental and  economic performance of the in-situ bitumen recovery industry (see B).  DME handling, including storage pipelining and shipping does not present problems associated with LNG handling. The existing Liquefied Petroleum Gas (LPG) infrastructure is suitable for DME. Steam reforming of DME,  as compared to LNG reforming, generates larger volumes of hydrogen and  proceeds under much milder conditions. A blend of CO2/H2O can be converted to DME by catalytic photosynthesis (see D) and  successful scale-up of this process would result in a drastic reduction  of the DME production cost. In Alberta, DME has the potential to bridge  the transition from fossil fuels to the hydrogen economy.

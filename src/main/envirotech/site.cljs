@@ -1,10 +1,11 @@
 (ns envirotech.site
   (:require [reagent.core :as r]
             [reagent.dom :as rdom]
-            [envirotech.body :as b]))
+            [envirotech.route :refer (route)]
+            [envirotech.test :as test]
+            [envirotech.body :as body]))
 
 ;; npx tailwindcss -i ./src/css/app.css -o ./public/app.css --watch
-(defonce route (r/atom :main))
 
 (defn routing []
   [:div
@@ -23,19 +24,19 @@
   [:div
    [nav-button "Main" :main]
    [nav-button "bitumen" :bitumen]
-   [nav-button "hydrogen" :hydrogen]
-   ])
+   [nav-button "hydrogen" :hydrogen]])
 
 (defn root-element []
   [:div
-   [b/text]
    #_[nav-bar]
-   #_[routing]])
+   [test/sample]
+   #_[routing]
+   #_[body/text]])
 
 
 (defn ^:dev/after-load start []
   (rdom/render
-   [:div {:class "bg-[#ececec] w-full h-screen"} [root-element]]
+   [:div {:class "bg-[#fff] w-full"} [root-element]]
    (.-body js/document)))
 
 (defn init []

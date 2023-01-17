@@ -1,15 +1,14 @@
 (ns envirotech.test
-  (:require [envirotech.macros :refer (p)]))
-
+  (:require [envirotech.elements :refer (p)]))
 
 (defn sample []
   [:div.container.py-10
    [:h1 "A Breakthrough Technology for In-Situ Bitumen Recovery"]
    [p "Our global energy system faces stark challenges on the horizon. "
-    "Fulfilling the generational promise of reducing poverty and creating prosperity requires an abundance of cheap energy; but the growing threat of climate change demands that we transition to cleaner and more  sustainable forms of energy. "
-    "Oil will likely still play a vital role in our global energy system for the forseeable future"
-    [:a {:href "https://www.eia.gov/todayinenergy/detail.php?id=41433"} "source"]
-    " ; and so it is imperative that we begin the transition to cheaper and cleaner forms of oil recovery today."]
+       "Fulfilling the generational promise of reducing poverty and creating prosperity requires an abundance of cheap energy; but the growing threat of climate change demands that we transition to cleaner and more  sustainable forms of energy. "
+       "Oil will likely still play a vital role in our global energy system for the forseeable future"
+       [:a {:href "https://www.eia.gov/todayinenergy/detail.php?id=41433"} "source"]
+       " ; and so it is imperative that we begin the transition to cheaper and cleaner forms of oil recovery today."]
 
    [p "The " [:em "Steam Assisted Gravity Drainage (SAGD)"]  "technology that  powered the rise of the oil sands for over three decades has become the  root of problems that now threaten the continued survival of the  Canadian oil sands industry. "
     "Recovering unrefined bitumen using SAGD has a host of growing disadvantages ; the process is complex, costly, and  energy intensive. "

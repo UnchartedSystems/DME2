@@ -1,7 +1,10 @@
 (ns envirotech.elements)
 
-(defn p [& contents]
-  (apply conj [:p {:class []}] contents))
+#_(defn sample []
+  [apply [:div.mx-5
+          [:div {:class [:container "max-w-[73ch]"]}
+           ]]])
 
-;; (defn p [& contents]
-;;   (vector (flatten [:p. contents])))
+
+#_(defn p [& contents]
+    (apply conj [:p {:class []}] contents))

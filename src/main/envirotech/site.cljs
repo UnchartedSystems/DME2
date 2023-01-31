@@ -7,32 +7,17 @@
 
 ;; npx tailwindcss -i ./src/css/app.css -o ./public/app.css --watch
 
-(defn routing []
-  [:div
-   (cond (= @route :main)       [:h1 "main"]
-         (= @route :bitumen)   [:h1 "bitumen"]
-	       (= @route :hydrogen)    [:h1 "hydrogen"])])
-
-
-(defn nav-button [val page]
-  [:input {:type "Button"
-	         :value val
-           :read-only true
-           :on-click #(reset! route page)}])
-
-(defn nav-bar []
-  [:div
-   [nav-button "Main" :main]
-   [nav-button "bitumen" :bitumen]
-   [nav-button "hydrogen" :hydrogen]])
+(defn frame [text]
+  [:div.mx-5
+   [:div {:class [:container "max-w-[73ch]"]}
+    [text]]])
 
 (defn root-element []
   [:div
    #_[nav-bar]
-   [test/sample]
+   #_[test/sample]
    #_[routing]
-   #_[body/text]])
-
+   [frame body/text]])
 
 (defn ^:dev/after-load start []
   (rdom/render

@@ -1,4 +1,10 @@
-;; shadow-cljs configuration
+;; Env Setup:
+;; npm install -D @tailwindcss/typography
+;; and more
+
+;; Running Build
+;; npx tailwindcss -i ./src/css/app.css -o ./public/app.css --watch
+
 {:source-paths
  ["src/dev"
   "src/main"

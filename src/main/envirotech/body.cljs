@@ -1,19 +1,23 @@
-(ns envirotech.body
-  (:require [markdown-to-hiccup.core :as m]))
+(ns envirotech.body)
 
 (defn exposition []
   [:div
-   [:h1 "A Breakthrough Technology for In-Situ Bitumen Recovery"]
-   [:p "Our global energy system faces stark challenges on the horizon.  Fulfilling the generational promise of reducing poverty and creating  prosperity requires an abundance of cheap energy; but the growing threat of climate change demands that we transition to cleaner and more  sustainable forms of energy. Oil will likely still play a vital role in  our global energy system for the forseeable future"
+   [:h1
+    "A Breakthrough Technology for In-Situ Bitumen Recovery"]
+   [:p
+    "Our global energy system faces stark challenges on the horizon.  Fulfilling the generational promise of reducing poverty and creating  prosperity requires an abundance of cheap energy; but the growing threat of climate change demands that we transition to cleaner and more  sustainable forms of energy. Oil will likely still play a vital role in  our global energy system for the forseeable future"
     [:a {:href "https://www.eia.gov/todayinenergy/detail.php?id=41433"} "source"]
     " ; and so it is imperative that we begin the transition to cheaper and cleaner forms of oil recovery today."]
-   [:p "The "
+   [:p
+    "The "
     [:em "Steam Assisted Gravity Drainage (SAGD)"]
     " technology that  powered the rise of the oil sands for over three decades has become the  root of problems that now threaten the continued survival of the  Canadian oil sands industry. Recovering unrefined bitumen using SAGD has a host of growing disadvantages; the process is complex, costly, and  energy intensive. The high CO2 emissions and poor  environmental record of SAGD has resulted in a growing political  backlash that is cutting off opportunities for continued growth."]
-   [:p "The "
+   [:p
+    "The "
     [:em "Dimethyl Ether (DME)"]
     " based recovery technology outlined  here can become an engine of clean, sustainable growth for the Canadian  oil sands for decades to come. Dimethyl Ether is an amphoteric solvent  that displays particular affinity to bitumen. In this outline we will  see how DME based extraction can dramatically improve the recovery rate  and environmental impact, reduce the capital and operating costs, and  simplify the process of bitumen recovery. We appeal to the Canadian oil  sands industry and the governments of Alberta and Canada to work  together to demonstrate the effectiveness of this technology in order to foster a new era for the bitumen industry."]
-   [:p [:em "All claims and figures are discussed in detail in the PDF resources located at the bottom of the page."]]])
+   [:p
+    [:em "All claims and figures are discussed in detail in the PDF resources located at the bottom of the page."]]])
 
 (defn comparison []
   [:div
@@ -44,7 +48,7 @@
       [:td "~85%"]
       [:td "~100%"]]
      [:tr
-      [:td "**Overall Bitumen Recovery ***"]
+      [:td [:strong "Overall Bitumen Recovery"]]
       [:td "~65%"]
       [:td "80% - 90%"]
       [:td "80% - 90%"]]
@@ -92,11 +96,46 @@
     [:h3 "The Potential for the Hydrogen Economy"]
    [:p "DME is the key to significantly improving the environmental and  economic performance of the in-situ bitumen recovery industry (see B).  DME handling, including storage pipelining and shipping does not present problems associated with LNG handling. The existing Liquefied Petroleum Gas (LPG) infrastructure is suitable for DME. Steam reforming of DME,  as compared to LNG reforming, generates larger volumes of hydrogen and  proceeds under much milder conditions. A blend of CO2/H2O can be converted to DME by catalytic photosynthesis (see D) and  successful scale-up of this process would result in a drastic reduction  of the DME production cost. In Alberta, DME has the potential to bridge  the transition from fossil fuels to the hydrogen economy."]])
 
+#_(defn accordion []
+  [:div {:class "relative mb-3"}
+   [:h6 {:class "mb-0"}
+    [:button {:class ["border-slate-100 text-slate-700 rounded-t-1 group relative flex w-full cursor-pointer items-center border-b border-solid p-4 text-left font-semibold text-dark-500 transition-all ease-in"], :data-collapse-target "collapse-1"}
+     [:span "What is Material Tailwind?"]
+     [:i {:class "fa fa-plus absolute right-0 pt-1 text-xs group-open:opacity-0"}]
+     [:i {:class "fa fa-minus absolute right-0 pt-1 text-xs opacity-0 group-open:opacity-100"}]]]
+   [:div {:data-collapse "collapse-1", :class "h-0 overflow-hidden transition-all duration-300 ease-in-out"}
+    [:div {:class "p-4 text-sm leading-normal text-blue-gray-500/80"} "We&#39;re not always in the position that we want to be at. We&#39;re constantly\n      growing. We&#39;re constantly making mistakes. We&#39;re constantly trying to\n      express ourselves and actualize our dreams."]]])
+
+(defn collapsible []
+  [:details
+   [:summary {:class ["list-none" "flex" "flex-wrap" "items-center" ]}
+    [:h3 {:class ["flex" "flex-1" "p-4" "font-semibold"]} "Click me for drop down!"]
+    [:div {:class ["flex" "w-10" "items-center" "justify-center"]}
+     [:div {:class [:border-8 "border-transparent"]}]]]
+   [:div [:p "Lorum ipsum dolor sit, amet consectetur adipisicing elit..."]]])
+
+(defn coll2 []
+  [:details {:class "bg-white shadow rounded group mb-4"}
+   [:summary {:class "list-none flex flex-wrap items-center cursor-pointer\n    focus-visible:outline-none focus-visible:ring focus-visible:ring-pink-500\n    rounded group-open:rounded-b-none group-open:z-
+            [1]relative"}
+    [:h3 {:class "flex flex-1 p-4 font-semibold"} "Check out this example"]
+    [:div {:class "flex w-10 items-center justify-center"}
+     [:div {:class "border-8 border-transparent border-l-gray-600 ml-2\n        group-open:rotate-90 transition-transform origin-left"}]]]
+   [:div {:class "p-4"}
+    [:p "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum praesentium officia nostrum iste eaque,\n        explicabo sunt, voluptatum mollitia corporis porro repudiandae. Eaque neque voluptatum sint molestiae? Assumenda\n        eligendi facilis reprehenderit."]]])
+
+(defn footer []
+  [:p.my-5 "THIS IS THE END OF THE PAGE"])
+
 (defn text []
-  [:div
-   [exposition]
-   [comparison]
-   [table]
-   [pics]
-   [evidence]
-   [hydrogen]])
+  [:div [:article {:class ["prose" "mt-5"]}
+         [exposition]
+         [comparison]
+         [table]
+         [pics]
+         [evidence]]
+   #_[accordion]
+   #_[collapsible]
+   [coll2]
+   #_[hydrogen]
+   [footer]])
